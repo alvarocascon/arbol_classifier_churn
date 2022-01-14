@@ -185,6 +185,6 @@ with st.sidebar:
     st.header("✅THANKS FOR COMMING!")
     st.subheader("I hope you like my project")
     st.write("You can contact me on:⬇️")
-    st.write("📲**Linkedin:** 'https://www.linkedin.com/in/%C3%A1lvaro-casc%C3%B3n-puigdengolas-444b05183/'")
+    st.write("📲**LinkedIn:** 'https://www.linkedin.com/in/%C3%A1lvaro-casc%C3%B3n-puigdengolas-444b05183/'")
     st.write("💻**GitHub:** alvarocascon")
     st.write("📩**GMail:** alvarocascon@gmail.com")
