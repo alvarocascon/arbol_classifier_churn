@@ -93,7 +93,9 @@ with model_training:
                                                         random_state=101)
 
     from sklearn import tree
-    modelo = tree.DecisionTreeClassifier(max_depth=3)
+    st.write("**Now you can choose our tree depth**")
+    max_depth=st.slider(f'Tree depth=',1,10,3)
+    modelo = tree.DecisionTreeClassifier(max_depth=max_depth)
     import warnings
 
     warnings.filterwarnings('ignore')
